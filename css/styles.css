@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 html {
-	background-size: cover;
-	background: linear-gradient(135deg, #52e5e3 0%,#00b5e2 100%);
 	box-sizing: border-box;
 	font-size: 16px;
 	line-height: 1.5;
@@ -51,9 +49,12 @@ h2 {
 
 .video-panel-container {
 	align-items: center;
+	background-size: cover;
+	background: linear-gradient(135deg, #52e5e3 0%,#00b5e2 100%);
 	display: flex;
 	justify-content: center;
-	height: 100%;
+	padding: 30px;
+	min-height: 100%;
 }
 
 .video-panel {
